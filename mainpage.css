@@ -1,0 +1,160 @@
+header {
+    background-color: wheat !important;
+    color: black !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 20px !important;
+    width: 100% !important; /* Stretch header across the entire width */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#zenMasterTittle{
+    display: flex;
+    position: relative;
+    left: 7%;
+}
+.meditationDrawGirl,
+.meditationDrawBoy {
+    position: relative;
+    width: 90px;
+}
+.meditationDrawGirl {
+    left: 9%;
+}
+.meditationDrawBoy {
+    right: 28%;
+    bottom: -4%;
+}
+main {
+    flex: 1;
+    display: flex;
+}
+#sidebar {
+    position: fixed; /* Stick to the left side */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    background-color: oldlace;
+    padding: 20px;
+    transition: width 0.3s ease;
+}
+#sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#sidebar:hover {
+    width: 10%;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#sidebar ul li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#sidebar ul li a {
+    text-decoration: none;
+}
+#sidebar ul li a:hover {
+    color: firebrick;
+    cursor: pointer;
+}
+#video-player-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+#background-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#titleImages{
+    position: fixed;
+}
+#title{
+    width: 800px;
+    height: 10px;
+    top: 0%;
+    left: 41%;
+}
+.zuka{
+    position: fixed;transform: scale(0.5);
+    left: 30%;
+    top: -10%;
+}
+.chill{
+    position: fixed;
+    transform: scale(0.6);
+   left: 0%;
+   top: 0%;
+}
+#signout{
+    margin-right: 250%;
+    transform: scale(0.3);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */}
+.changepassButton {
+        position: relative;;
+        cursor: pointer;
+        width: 50px;
+        height: auto;
+        left: 33%;
+    }
+ .changepassButton {
+        opacity: 0.8;
+    }
+.buttonlogout {
+    position: relative;;
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    left: 30%;
+}
+/* Optional: Add hover effect */
+.buttonlogout:hover {
+    opacity: 0.8;
+}
+#categories{
+    color: black;
+    font-weight: bold;
+}
+#introduction{
+    color: black;
+    font-weight: bold;
+}
+#guidedMeditation{
+    color: black;
+    font-weight: bold;
+}
+#lovingMedi{
+    color: black;
+    font-weight: bold;
+}
+#zenMastersTittle{
+    color: black;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-size: 50px 50px;
+    background-image: url("https://i.ibb.co/6rhChN9/brick.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ccc;
+}
+
+.form-container {
+    width: 600px; /* Increased width */
+    padding: 40px; /* Increased padding */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow */
+}
+
+.form-group {
+    margin-bottom: 40px; /* Increased margin */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 15px; /* Increased margin */
+    color: #ccc; /* Lighter text color */
+    font-size: 24px; /* Increased font size */
+    font-family: 'Arial Black', sans-serif; /* Font style */
+}
+
+.form-group input {
+    width: 90%;
+    padding: 20px; /* Increased padding */
+    border: 2px solid #ccc; /* Thicker border */
+    border-radius: 10px; /* Increased border radius */
+    font-size: 20px; /* Increased font size */
+}
+
+#submitsign {
+    width: 100%;
+    padding: 20px;
+    background-color: #8b0000;
+    color: #ccc;
+    border: 2px solid #8b0000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+}
+
+.form-group button:hover {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+}
+#back {
+    position: fixed;
+    top: -10%;
+    left: -2%;
+    transform: scale(0.2);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+#back img {
+    width: 100%;
+    height: auto;
+}
