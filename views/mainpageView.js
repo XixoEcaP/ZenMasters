@@ -38,7 +38,7 @@ let mainpageview = {
         '</div>' +
         '<div id="background-video-container">' +
         '<video autoplay muted loop id="background-video">' +
-        '<source src="../video/Zen Masters (2).mp4" type="video/mp4">' +
+        '<source src="./Zen Masters (2).mp4" type="video/mp4">' +
         'Your browser does not support the video tag.' +
         '</video>' +
         '</div>' +
